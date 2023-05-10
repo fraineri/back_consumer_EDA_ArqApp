@@ -31,6 +31,7 @@ controller.Initialize = (req, res) => {
 }
 controller.SelfInitialize = () => {
     try {
+        console.log("A")
         clearInterval(SaticInterval);
         clearInterval(SQSInterval);
         
